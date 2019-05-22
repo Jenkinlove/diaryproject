@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="diaryproject:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/diaryproject_war</output-path>
+    <root id="archive" name="diaryproject_war.war">
+      <element id="artifact" artifact-name="diaryproject:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="diaryproject" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

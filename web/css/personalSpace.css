@@ -1,0 +1,538 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{
+    margin:0;padding:0
+}
+body{
+    min-width: 320px;
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    position: relative;
+}
+.tishi{
+    width: 500px;
+    height: 175px;
+    border: 10px solid #7d7d7d;
+    background: white;
+    border-radius: 5px;
+    position: fixed;
+    top: 50px;
+    left: 500px;
+    animation: move100 0.4s ease;
+    z-index: 1005;
+}
+@keyframes move100 {
+    0%{
+        top: -50px;
+    }
+    95%{
+        top: 60px;
+    }
+    96%{
+        top: 56px;
+    }
+    97%{
+        top: 53px;
+    }
+    100%{
+        top: 50px;
+    }
+}
+.tishi img{
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    display: inline-block;
+}
+.tishi>p{
+    display: inline-block;
+    width: 480px;
+    height: 40px;
+    margin-top: 10px;
+    line-height: 40px;
+    letter-spacing: 5px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+
+}
+.tishi #data{
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+}
+.tishi #yes{
+    width: 160px;
+    height: 40px;
+    border: 1px solid #ee4d4f;
+    font-size: 100%;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 130px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-weight: bold;
+    background: #ee4d4f;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.tishi #no{
+    display: inline-block;
+    width: 50px;
+    height: 40px;
+    border: 1px solid #b07c7c;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 40px;
+    background: #b07c7c;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.head{
+    width: 100%;
+    height: 70px;
+    background: #34495e;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+.head .logo{
+    width: 300px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 30px;
+    font-weight: lighter;
+    float: left;
+    margin-left: 300px;
+    color: white;
+    font-family: z4, serif;
+}
+.head .back a{
+    display: inline-block;
+    width: 300px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 30px;
+    font-weight: lighter;
+    float: left;
+    color: white !important;
+    font-family: z4, serif;
+    text-decoration: none;
+}
+
+.head  .right{
+    float: right;
+    width: 120px;
+    height: 70px;
+    font-size: 25px;
+    color: white;
+    margin-right: 200px;
+}
+.head .right  img{
+    margin-top: 21px;
+    border-radius: 15px;
+    margin-right: 7px;
+    float: left;
+}
+.head .right span{
+    display: inline-block;
+    height: 40px;
+    float: left;
+    margin-top: 18px;
+    font-weight: lighter;
+    font-family: z5, serif;
+
+}
+.head .wel{
+    width: 200px;
+    height: 70px;
+    float: right;
+    line-height: 70px;
+    margin-right: 60px;
+}
+.head .wel .out{
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    font-size:16px;
+    color: red;
+}
+.head .wel span{
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+}
+.center{
+    width: 100%;
+    height: 650px;
+    margin: 0 auto;
+    border: 1px solid #000;
+    animation: move 0.8s linear;
+
+}
+.center .baz{
+    width: 300px;
+    height: 50px;
+    margin: 200px auto;
+    animation: move 0.8s linear;
+
+}
+.center .baz img{
+    width: 50px;
+    height: 50px;float: left;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+.center h1{
+    font-family: z3, serif;
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 2em;
+    font-weight: bold;
+    color: #a82a32 !important;
+
+}
+@keyframes move2 {
+    from{
+        opacity: 0;
+        margin-top: 30px;
+    }
+    to{
+        opacity: 1;
+        margin-top: 0;
+    }
+}
+@keyframes move3 {
+    from{
+        opacity: 0;
+        margin-top: -130px;
+    }
+    to{
+        opacity: 1;
+        margin-top: -180px;
+    }
+}
+.center p{
+    width: 700px;
+    margin-left: 400px;
+    margin-top: -180px;
+    color: white;
+    text-align: center;
+    text-indent: 2em;
+    font-weight: lighter;
+    font-size: 23px;
+    font-family: z3, serif;
+    animation: move3 1.2s linear;
+}
+body>p{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 100;
+    margin-top: 20px;
+    padding-left: 10px;
+    font-size: 35px;
+    letter-spacing: 10px;
+    font-family: z3, serif;
+}
+@font-face{
+    font-family: 'z2';   /*字体名称*/
+    src: url('../思源黑体字体全套/2.otf');
+}
+@font-face{
+    font-family: 'z3';   /*字体名称*/
+    src: url('../思源黑体字体全套/6.otf');
+}
+@font-face{
+    font-family: 'z4';   /*字体名称*/
+    src: url('../思源黑体字体全套/4.otf');
+}
+@font-face{
+    font-family: 'z5';   /*字体名称*/
+    src: url('../思源黑体字体全套/5.otf');
+}
+.foot{
+    width: 100%;
+    height: 620px;
+    margin-top: 20px;
+
+}
+.foot .all>div{
+    width: 400px;
+    height: 266px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.3);
+    background: rgba(256,256,256,0.3);
+    transition: all 1.5s;
+    border-radius: 5px;
+    animation: move1 1s linear ;
+}
+.foot .all>div:hover{
+    box-shadow: 5px 2px 5px 5px rgba(0,0,0,0.3);
+}
+.foot .all{
+    width: 1300px;
+    margin: 0 auto;
+    background: #ccc;
+    animation: move 0.8s linear ;
+    overflow: hidden;
+}
+.foot .all  img{
+    width: 400px;
+    height: 266px;
+    border-radius: 5px;
+
+}
+.foot .all  p{
+    position: absolute;
+    width: 270px;
+    font-size: 20px;
+    left: 70px;
+    top: 100px;
+    color: white;
+    z-index: 1000;
+    font-family: z3, serif;
+}
+.foot .all h6{
+    width: 400px;
+    height: 266px;
+}
+.container{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin-top: 30px;
+}
+.container .pagination {
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 430px;
+
+}
+.end{
+    height: 200px;
+}
+.foot .all>div:hover{
+    transform: scale(1.05);
+}
+.foot .all div .glass:hover{
+    -webkit-filter: blur(0); /* Chrome, Opera */
+    -moz-filter: blur(0);
+    -ms-filter: blur(0);
+    filter: blur(0);
+}
+.foot .all div>.glass{
+    display: inline-block;
+    width: 400px;
+    height: 266px;
+    border-radius: 5px;
+    position: relative;                    /* 玻璃样式 */
+    border-bottom: 1px solid;
+    border-bottom-color: #ccc;
+    border-bottom-color: rgba(250, 250, 250, 0.3);
+    background-color: rgba(250, 250, 250, 0.3);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    -webkit-filter: blur(1px); /* Chrome, Opera */
+    -moz-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: blur(1px);
+}
+.son{
+    width: 1001px;
+    height: 700px;
+    position: fixed;
+    left: 260px;
+    top: 20px;
+    display: none;
+    z-index: 1001;
+    border-radius: 10px;
+    animation: move5 0.5s linear;
+    box-shadow: 2px 2px 0px 0px #484848;
+}
+.son .tianqi{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 40px;
+    left: 280px;
+    border-radius: 15px;
+
+
+}
+@keyframes move {
+    from{
+        opacity: 0;
+
+    }
+    to{
+        opacity: 1;
+
+    }
+}
+@keyframes move5 {
+    from{
+        opacity: 0;
+        top: 50px;
+    }
+    to{
+        opacity: 1;
+        top: 20px;
+    }
+}
+.son #spa2{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    border-radius: 15px;
+    left: 50px;
+    top: 30px;
+    font-size: 25px;
+    color: #bb785e;
+    font-weight: lighter;
+    line-height: 50px;
+    background: rgba(33,33,33,0.8);
+    text-align: center;
+}
+.son #datu{
+    width: 1000px;
+    height: 700px;
+    border-radius: 10px;
+}
+.son #spa{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url("../img/gb.png");
+    border-radius: 15px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+.son .pc2{
+    width: 600px;
+    height: 50px;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    font-size: 30px;
+    background: rgba(33,33,33,0.8);
+    color: #bb785e;
+    line-height: 50px;
+    text-align: center;
+    font-family: z5, serif;
+    font-weight: lighter;
+    border-radius: 10px;
+}
+.son h1{
+    width: 600px;
+    height: 50px;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    z-index: 1002;
+    font-size: 30px;
+    color: #bb785e;
+    line-height: 50px;
+    text-align: center;
+    font-family: z5, serif;
+    font-weight: lighter;
+    border-radius: 10px;
+}
+@font-face{
+    font-family: 'z2';   /*字体名称*/
+    src: url('../思源黑体字体全套/2.otf');
+}
+@font-face{
+    font-family: 'z3';   /*字体名称*/
+    src: url('../思源黑体字体全套/6.otf');
+}
+@font-face{
+    font-family: 'z4';   /*字体名称*/
+    src: url('../思源黑体字体全套/4.otf');
+}
+@font-face{
+    font-family: 'z5';   /*字体名称*/
+    src: url('../思源黑体字体全套/5.otf');
+}
+.son .pc1{
+    width: 620px;
+    height: 400px;
+    position: absolute;
+    border-radius: 10px;
+    font-size: 26px;
+    color: white;
+    top: 200px;
+    left: 200px;
+    text-indent: 2em;
+    font-family: z4, serif;
+    background: rgba(33,33,33,0.8);
+}
+.son #pcontent{
+    width: 620px;
+    height: 400px;
+    position: absolute;
+    font-size: 22px;
+    color: white;
+    top: 200px;
+    left: 200px;
+    text-indent: 2em;
+    font-family: z4, serif;
+    overflow-y: scroll;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.all div a{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 1px solid skyblue;
+    box-sizing: border-box;
+    display: none;
+    transition: all 1s;
+    animation: move 0.8s linear;
+    z-index: 1005;
+    border-radius: 5px;
+    background: url("../ximg/shanchu .png") no-repeat border-box;
+
+}
+@keyframes move1 {
+    from{
+        opacity: 0;
+        margin-top: 50px;
+    }
+    to{
+        opacity: 1;
+        margin-top: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

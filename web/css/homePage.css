@@ -1,0 +1,371 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{
+    margin:0;padding:0
+}
+body{
+    min-width: 320px;
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    position: relative;
+}
+.head{
+    width: 100%;
+    height: 70px;
+    background: #34495e;
+}
+.head .logo{
+    width: 150px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 35px;
+    font-weight: lighter;
+    float: left;
+    margin-left: 300px;
+    color: white;
+    font-family: z4, serif;
+}
+.head .enter a{
+    display: inline-block;
+    width: 300px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 30px;
+    font-weight: lighter;
+    float: left;
+    /*margin-left: 300px;*/
+    color: white;
+    font-family: z4, serif;
+}
+
+.head  .right{
+    float: right;
+    width: 120px;
+    height: 70px;
+    font-size: 25px;
+    color: white;
+    margin-right: 200px;
+}
+.head .right  img{
+    margin-top: 23px;
+    border-radius: 15px;
+    margin-right: 7px;
+    float: left;
+}
+.head .right span{
+    display: inline-block;
+    height: 40px;
+    float: left;
+    margin-top: 20px;
+    font-weight: lighter;
+    font-family: z5, serif;
+
+}
+.head .wel{
+    width: 200px;
+    height: 70px;
+    float: right;
+    margin-right: 100px;
+}
+.head .wel a{
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    margin-left: 30px;
+    margin-top: 25px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px #ccc;
+}
+.head .wel span{
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+}
+.head .welcome{
+    width: 250px;
+    height: 70px;
+    float: right;
+    line-height: 70px;
+    margin-right: 10px;
+}
+.head .welcome .out{
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    font-size:16px;
+    color: red;
+}
+.head .welcome span{
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 5px;
+    margin-right: 10px;
+    color: white;
+}
+.center{
+    width: 100%;
+    height: 650px;
+    margin: 0 auto;
+
+    border: 1px solid #000;
+
+}
+.center .baz{
+    width: 300px;
+    height: 50px;
+    margin: 200px auto;
+    animation: move 1.3s linear;
+
+}
+@keyframes move {
+    from{
+        opacity: 0;
+        margin-top: 260px;
+    }
+    to{
+        opacity: 1;
+        margin-top: 200px;
+    }
+}
+@keyframes move1 {
+    from{
+        opacity: 0;
+        margin-top: 80px;
+    }
+    to{
+        opacity: 1;
+        margin-top: 40px;
+    }
+}
+.center .baz img{
+    width: 50px;
+    height: 50px;float: left;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+.center h1{
+    font-family: z3, serif;
+    color: #a82a32 !important;
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 50px;
+
+    text-transform: uppercase;
+}
+.center p{
+    width: 700px;
+    margin-left: 400px;
+    margin-top: -180px;
+    color: white;
+    text-indent: 2em;
+    font-weight: lighter;
+    font-size: 23px;
+    font-family: z3, serif;
+}
+.foot ul{
+    width: 1300px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 50px;
+    list-style: none;
+}
+.foot ul li{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+    margin-left: 200px;
+    background: #ccc;
+    border-radius: 10px;
+    float: left;
+}
+@font-face{
+    font-family: 'z2';   /*字体名称*/
+    src: url('../思源黑体字体全套/2.otf');
+}
+@font-face{
+    font-family: 'z3';   /*字体名称*/
+    src: url('../思源黑体字体全套/6.otf');
+}
+@font-face{
+    font-family: 'z4';   /*字体名称*/
+    src: url('../思源黑体字体全套/4.otf');
+}
+@font-face{
+    font-family: 'z5';   /*字体名称*/
+    src: url('../思源黑体字体全套/5.otf');
+}
+.foot{
+    width: 100%;
+    background: #cce2f0;
+    border: 1px solid #cce2f0;
+}
+.foot .all1 {
+    width: 800px;
+}
+.foot .all1 h1{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    font-family: z5, serif;
+}
+.foot .all1 span{
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+.foot .all1  p{
+    width: 700px;
+    margin: 0 auto;
+    text-indent: 2em;
+    font-weight: lighter;
+    font-size: 16px;
+    font-family: z6, serif;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    line-height: 30px;
+}
+.foot input{
+    width: 100px;
+    height: 30px;
+    margin-left: 350px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: orange;
+    border-radius: 5px;
+    font-family: z6, serif;
+    font-size: 18px;
+}
+.foot>div{
+    width: 820px;
+    margin: 40px auto;
+    background: white;
+    border-radius: 5px;
+    display: none;
+    animation: move1 1s linear;
+    overflow: hidden;
+}
+#foot .active{
+    background-color: skyblue;
+}
+
+.foot .all2  img{
+    width: 250px;
+    height: 375px;
+    margin-left: 18px;
+    margin-top: 30px;
+    float: left;
+    box-shadow: 1px 1px 1px 1px #ccc;
+}
+.mark{
+    width: 100%;
+    height: 1500px;
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+    animation: move1231 0.4s ease;
+    transition: all 1s;
+
+}
+@keyframes move1231 {
+    0%{
+        opacity: 0;
+        top: -50px;
+    }
+    95%{
+        top: 8px;
+    }
+    97%{
+        top: 5px;
+    }
+    100%{
+        opacity: 1;
+        top: 0;
+    }
+}
+.mark .fangda{
+    width: 498px;
+    height: 750px;
+    margin:10px auto;
+    border-radius: 5px;
+    position: relative;
+}
+.mark .fangda img{
+    width: 500px;
+    height: 750px;
+    border-radius: 5px;
+}
+.mark .fangda span{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url("../img/gb.png") no-repeat;
+    border-radius: 15px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.foot .all3 div{
+    width: 250px;
+    height: 180px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 0;
+    box-shadow: 1px 1px 1px 1px #ccc;
+    border-radius: 10px;
+}
+.foot .all3 div img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 250px;
+    height: 133px;
+}
+.foot .all3 div audio{
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.container{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin-top: 30px;
+}
+.container .pagination {
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 430px;
+
+}
+.end{
+    height: 200px;
+}
+
+
+
+
+
+
+

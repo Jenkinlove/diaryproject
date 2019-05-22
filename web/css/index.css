@@ -1,0 +1,117 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{
+    margin:0;padding:0
+}
+body{
+    min-width: 320px;
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.top{
+    width: 100%;
+    height: 30px;
+    background: #ccc;
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
+}
+.top a{
+    margin-left: 50px;
+}
+.head{
+    width: 100%;
+    height: 100px;
+    background: black;
+}
+.head .logo img{
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+}
+.head .logo{
+    float: left;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+.head .right{
+    width: 1000px;
+    height: 100px;
+    float: right;
+}
+.head .right ul{
+    float: left;
+    list-style: none;
+    width: 500px;
+    height: 50px;
+    margin-top: 50px;
+}
+.head .right ul li{
+    float: left;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+
+}
+.head .right .login{
+    float: right;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.center{
+    width: 100%;
+    height: 410px;
+    background: url("../img/blog_bg_web.jpg");
+    border: 1px solid #000;
+}
+.center h1{
+    color: white;
+    margin-left: 650px;
+    margin-top: 150px;
+}
+.center span{
+    color: white;
+    margin-left: 700px;
+    margin-top: 190px;
+}
+.foot{
+    width: 100%;
+    height: 300px;
+    border: 1px solid #000;
+    background: skyblue;
+}
+.foot .fl{
+    width: 100%;
+    height: 300px;
+    border: 1px solid #000;
+    list-style: none;
+}
+.foot .fl li{
+    float: left;
+    width: 370px;
+    height: 300px;
+    margin-left: 7px;
+}
+.foot .fl li img{
+    width: 370px;
+    height: 300px;
+
+}
+.foot .fl li{
+    transition: all 1.5s;
+
+}
+.foot .fl li:hover{
+    transform: scale(1.05);
+}
+
+
+
+
